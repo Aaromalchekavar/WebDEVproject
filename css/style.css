@@ -4,3 +4,46 @@
 body{
 	background: black;
 }
+/*exam page*/
+.back{
+	width: 60px;
+	height: 40px;
+	background-color: blue;
+	margin-left: 30px;
+	margin-top: 10px;
+	text-align: justify;
+	text-align: center;
+	
+}
+.backlink{
+	color: white;
+}
+.ex-ref{
+	width: 1000px;
+	height: 250px;
+	background-color: greenyellow;
+	margin: auto;
+	box-sizing: border-box;
+	margin-top: 20px;
+
+	
+}
+.subheader{
+	text-align: center;
+	color: black;
+	background-color: cornflowerblue;
+	padding-top: 30px;
+}
+.subcontent{
+	line-height: 10px;
+	margin-top: 10px;
+	color: black;
+	text-align: left;
+	margin-left: 30px;
+}
+.subfooter{
+	background-color: cornflowerblue;
+	width: auto;
+	height: 60px;
+	padding-top: 20px;
+}
