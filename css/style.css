@@ -6,10 +6,14 @@ body{
 }
 /*exam page*/
 .back {
-	width: 50px;
-	height: 30px;
+	width: fit-content;
+	height: fit-content;
 	background-color: blue;
 	color: white;
+	padding: 5px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	box-shadow: burlywood;
 	text-align: justify;
 	text-align: center;
 }
@@ -17,9 +21,12 @@ body{
 .ex-ref{
 	width: 1000px;
 	height: 350px;
+	display: flex-box;
 	background-color: #e3f2fd;
 	margin: auto;
 	box-sizing: border-box;
+	border-top: blue;
+	border-radius: 20px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 
@@ -27,9 +34,12 @@ body{
 }
 .subheader{
 	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	color: black;
 	background-color: #d1fcf0;
-	padding-top: 30px;
+	padding: 10px;
 	
 }
 .subcontent{
@@ -37,14 +47,28 @@ body{
 	margin-top: 10px;
 	color: black;
 	text-align: left;
+	font-family: 'Crimson Text', serif;
+	font-size: larger;
 	margin-left: 30px;
+}
+.subcontent a{
+	text-decoration: none;
 }
 .subfooter{
 	background-color: #d1fcf0;
 	width: auto;
 	height: 60px;
+	display: flex;
+	justify-content: center;
 	padding-top: 20px;
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: bold;
 
+}
+.exam-card-title{
+	font-size: larger;
+	font-weight: bolder;
+	font-family: 'Roboto', sans-serif;
 }
 
 
