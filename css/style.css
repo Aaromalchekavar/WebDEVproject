@@ -20,8 +20,10 @@ body{
 
 .ex-ref{
 	width: 1000px;
-	height: 350px;
-	display: flex-box;
+	height: fit-content;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flexbox;
 	background-color: #e3f2fd;
 	margin: auto;
 	box-sizing: border-box;
@@ -57,13 +59,17 @@ body{
 .subfooter{
 	background-color: #d1fcf0;
 	width: auto;
-	height: 60px;
+	height: fit-content;
 	display: flex;
 	justify-content: center;
-	padding-top: 20px;
+	align-items: center;
+	padding: 10px;
 	font-family: 'Rajdhani', sans-serif;
 	font-weight: bold;
-
+}
+.subfooter textarea{
+	margin-left: 5px;
+	margin-right: 5px;
 }
 .exam-card-title{
 	font-size: larger;
