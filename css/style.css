@@ -76,12 +76,31 @@ body{
 	font-weight: bolder;
 	font-family: 'Roboto', sans-serif;
 }
-
+.form-container{
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+}
+.page-footer1{
+	color: blanchedalmond;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+.page-footer{
+	color: blanchedalmond;
+}
+.contact-card{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,50%);
+}
 
 @media only screen and (max-width: 1005px) {
 	.ex-ref{
 		width: auto;
-		height: 300px;
+		height: fit-content;
 		background-color: #e3f2fd;
 		margin: auto;
 		box-sizing: border-box;
