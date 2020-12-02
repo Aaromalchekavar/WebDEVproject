@@ -3,6 +3,7 @@
 }
 body{
 	background: black;
+	min-height: 500px;
 }
 /*exam page*/
 .back {
@@ -16,6 +17,9 @@ body{
 	box-shadow: burlywood;
 	text-align: justify;
 	text-align: center;
+}
+.bg-black{
+	background-color: black;
 }
 
 .ex-ref{
@@ -108,4 +112,5 @@ body{
 		margin-left: 10px;
 		margin-right: 10px;
 		margin-bottom: 10px;
+}
 }
