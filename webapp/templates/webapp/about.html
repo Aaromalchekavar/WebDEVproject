@@ -24,11 +24,11 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="{% url 'webapp:index' %}"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a>
             </li>
-            <li><a class="nav-link active" href="about.html"><i class="fas fa-info-circle"></i> About <span class="sr-only">(current)</span></a></li>
-            <li><a class="nav-link" href="contact.html"><i class="fas fa-address-book"></i> Contact <span class="sr-only">(current)</span></a></li>
-            <li><a class="nav-link" href="feedback.html"><i class="fas fa-comment-alt"></i> Feedback <span class="sr-only">(current)</span></a></li>
+            <li><a class="nav-link active" href="{% url 'webapp:about' %}"><i class="fas fa-info-circle"></i> About <span class="sr-only">(current)</span></a></li>
+            <li><a class="nav-link" href="{% url 'webapp:contact' %}"><i class="fas fa-address-book"></i> Contact <span class="sr-only">(current)</span></a></li>
+            <li><a class="nav-link" href="{% url 'webapp:feedback' %}"><i class="fas fa-comment-alt"></i> Feedback <span class="sr-only">(current)</span></a></li>
 
           </ul>
             <!-- <li class="nav-item">
